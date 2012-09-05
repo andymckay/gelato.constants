@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 
-setup(name='gelator.constants',
+setup(name='gelato.constants',
       version='0.1',
       description='Gelato constants',
       namespace_packages=['gelato'],
