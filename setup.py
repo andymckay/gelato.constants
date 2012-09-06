@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='gelato.constants',
-      version='0.1',
+      version='0.1.1',
       description='Gelato constants',
       namespace_packages=['gelato'],
       long_description='',
