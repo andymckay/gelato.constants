@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='gelato.constants',
-      version='0.1.1',
+      version='0.1.2',
       description='Gelato constants',
       namespace_packages=['gelato'],
       long_description='',
@@ -14,4 +14,4 @@ setup(name='gelato.constants',
       url='',
       include_package_data=True,
       packages=find_packages(exclude=['tests']),
-      install_requires=['django', 'tower',])
+      install_requires=['django', 'tower'])
