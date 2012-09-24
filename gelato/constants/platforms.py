@@ -1,5 +1,3 @@
-# When we get onto python 2.7 we can replcae this easily with
-# collections.OrederedDict.
 from django.utils.datastructures import SortedDict
 
 from tower import ugettext_lazy as _

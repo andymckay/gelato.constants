@@ -19,6 +19,7 @@ STATUS_PURGATORY = 10  # A temporary home; bug 614686
 STATUS_DELETED = 11
 STATUS_REJECTED = 12  # This applies only to apps (for now)
 STATUS_PUBLIC_WAITING = 13  # bug 740967
+STATUS_REVIEW_PENDING = 14  # Themes queue, reviewed, needs further action.
 
 STATUS_CHOICES = {
     STATUS_NULL: _(u'Incomplete'),
@@ -183,9 +184,6 @@ ADDON_SEARCH_TYPES = [
     ADDON_SEARCH,
     ADDON_LPAPP,
 ]
-
-# Types searchable via the admin console
-ADDON_ADMIN_SEARCH_TYPES = ADDON_SEARCH_TYPES + [ADDON_PLUGIN]
 
 MARKETPLACE_TYPES = [ADDON_PERSONA, ADDON_WEBAPP]
 
